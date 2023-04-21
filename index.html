@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,143 @@
     <link rel="stylesheet" href="./src/css/responsive.css">
     <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <title></title>
+    <title>Frontend Mentor | Social Media Dashboard With Theme Switcher</title>
 </head>
+
 <body>
-    
+    <main class="container">
+        <header class="header">
+            <div>
+                <h1 class="title">Social Media Dashboard</h1>
+                <h2 class="total-folowers">Total Followers: 23,004</h2>
+            </div>
+            <div class="toggle-btn">
+                <p class="mode"></p>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+            </div>
+        </header>
+        <section class="all-followers">
+            <div class="followers facebook">
+                <ul>
+                    <li class="user"><img src="./src/images/icon-facebook.svg" alt="facebook"> @nathanf</li>
+                    <li class="followers-number">1987</li>
+                    <li class="followers-text">Followers</li>
+                    <li class="followers-today up"><i class="fa-solid fa-caret-up"></i> 12 Today</li>
+                </ul>
+            </div>
+            <div class="followers twitter">
+                <ul>
+                    <li class="user"><img src="./src/images/icon-twitter.svg" alt="twitter"> @nathanf</li>
+                    <li class="followers-number">1044</li>
+                    <li class="followers-text">Followers</li>
+                    <li class="followers-today up"><i class="fa-solid fa-caret-up"></i> 99 Today</li>
+                </ul>
+            </div>
+            <div class="followers instagram">
+                <ul>
+                    <li class="user"><img src="./src/images/icon-instagram.svg" alt="instagram"> @realnathanf</li>
+                    <li class="followers-number">11k</li>
+                    <li class="followers-text">Followers</li>
+                    <li class="followers-today up"><i class="fa-solid fa-caret-up"></i> 1099 Today</li>
+                </ul>
+            </div>
+            <div class="followers youtube">
+                <ul>
+                    <li class="user"><img src="./src/images/icon-youtube.svg" alt="youtube"> Nathan F.</li>
+                    <li class="followers-number">8239</li>
+                    <li class="followers-text">Subscribers</li>
+                    <li class="followers-today down"><i class="fa-solid fa-caret-down"></i> 144 Today</li>
+                </ul>
+            </div>
+        </section>
+        <section class="Overview">
+            <h2>Overview - Today</h2>
+            <div>
+                <ul>
+                    <li class="views-title">Page Views</li>
+                    <li class="social-logo"><img src="./src/images/icon-facebook.svg" alt="facebook"></li>
+                </ul>
+                <ul>
+                    <li class="daily-number">87</li>
+                    <li class="percentage down"><i class="fa-solid fa-caret-down"></i> 3%</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="views-title">Likes</li>
+                    <li class="social-logo"><img src="./src/images/icon-facebook.svg" alt="facebook"></li>
+                </ul>
+                <ul>
+                    <li class="daily-number">52</li>
+                    <li class="percentage up"><i class="fa-solid fa-caret-up"></i> 2%</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="views-title">Likes</li>
+                    <li class="social-logo"><img src="./src/images/icon-instagram.svg" alt="instagram"></li>
+                </ul>
+                <ul>
+                    <li class="daily-number">5462</li>
+                    <li class="percentage up"><i class="fa-solid fa-caret-up"></i> 2257%</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="views-title">Profile Views</li>
+                    <li class="social-logo"><img src="./src/images/icon-instagram.svg" alt="instagram"></li>
+                </ul>
+                <ul>
+                    <li class="daily-number">52k</li>
+                    <li class="percentage up"><i class="fa-solid fa-caret-up"></i> 1375%</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="views-title">Retweets</li>
+                    <li class="social-logo"><img src="./src/images/icon-twitter.svg" alt="twitter"></li>
+                </ul>
+                <ul>
+                    <li class="daily-number">117</li>
+                    <li class="percentage up"><i class="fa-solid fa-caret-up"></i> 303%</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="views-title">Likes</li>
+                    <li class="social-logo"><img src="./src/images/icon-twitter.svg" alt="twitter"></li>
+                </ul>
+                <ul>
+                    <li class="daily-number">507</li>
+                    <li class="percentage up"><i class="fa-solid fa-caret-up"></i> 553%</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="views-title">Likes</li>
+                    <li class="social-logo"><img src="./src/images/icon-youtube.svg" alt="youtube"></li>
+                </ul>
+                <ul>
+                    <li class="daily-number">107</li>
+                    <li class="percentage down"><i class="fa-solid fa-caret-down"></i> 19</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="views-title">Total Views</li>
+                    <li class="social-logo"><img src="./src/images/icon-youtube.svg" alt="youtube"></li>
+                </ul>
+                <ul>
+                    <li class="daily-number">1407</li>
+                    <li class="percentage down"><i class="fa-solid fa-caret-down"></i> 12%</li>
+                </ul>
+            </div>
+        </section>
+    </main>
     <script src="./src/js/index.js"></script>
 </body>
+
 </html>
