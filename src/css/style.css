@@ -23,7 +23,9 @@ body {
     width: 100%;
     margin-bottom: 40px;
 }
-
+hr{
+    display: none;
+}
 .container .header h1,
 .toggle-btn .mode {
     color: hsl(0, 0%, 100%);
@@ -186,8 +188,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(55, 143, 230);
-    background: linear-gradient(90deg, rgba(55, 143, 230, 1) 0%, rgba(62, 218, 130, 1) 100%);
+    background: hsl(210, 78%, 56%);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -205,7 +206,7 @@ body {
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background: hsl(230, 22%, 74%);
 }
 
 input:focus+.slider {

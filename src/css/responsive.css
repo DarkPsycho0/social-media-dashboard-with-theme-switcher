@@ -1,0 +1,76 @@
+@media(max-width:1024px){
+    .container{
+        max-width: 870px;
+    }
+    .followers{
+        padding: 30px;
+        width: 210px;
+    }
+    .overview .cards{
+        gap: 10px;
+    }
+    .overview .cards .card{
+        width: 210px;
+    }
+    .daily-number{
+        font-size: 26px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        max-width: 500px;
+        height: 100%;
+        margin: 60px auto;
+    }
+    .container .header h1{
+        font-size: 24px;
+    }
+    .all-followers{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 15px;
+    }
+    .followers{
+        padding: 30px 60px;
+        width: 250px;
+    }
+    .overview .cards {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(4, auto);
+        gap: 15px;
+    }
+    .overview .cards .card{
+        width: 250px;
+    }
+}
+@media(max-width:425px){
+    .container{
+        max-width: 250px;
+    }
+    .all-followers{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(4, auto);
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .container .header h1{
+        font-size: 20px;
+    }
+    .toggle-btn{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .all-followers{
+        justify-content: center;
+    }
+    .overview .cards {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+}
