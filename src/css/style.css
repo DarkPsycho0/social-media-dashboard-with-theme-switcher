@@ -4,7 +4,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     background: rgb(30, 32, 42);
-    background: linear-gradient(0deg, rgba(30, 32, 42, 1) 80%, rgba(31, 33, 46, 1) 20%);
+    background: linear-gradient(0deg, rgba(30, 32, 42, 1) 65%, rgba(31, 33, 46, 1) 35%);
 }
 
 .container {
@@ -23,9 +23,7 @@ body {
     width: 100%;
     margin-bottom: 40px;
 }
-hr{
-    display: none;
-}
+
 .container .header h1,
 .toggle-btn .mode {
     color: hsl(0, 0%, 100%);
@@ -225,4 +223,29 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+body.light {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 65%, rgba(245, 247, 255, 1) 35%);
+}
+
+.container .header h1.light,
+.followers-number.light,
+.daily-number.light {
+    color: hsl(230, 17%, 14%);
+}
+
+.container .header h2.light,
+.toggle-btn .mode.light,
+.user.light,
+.followers-text.light,
+.overview h2.light,
+.views-title.light {
+    color: hsl(228, 12%, 44%);
+}
+
+.followers.light,
+.overview .cards .card.light {
+    background-color: hsl(227, 47%, 96%);
 }
